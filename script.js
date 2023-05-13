@@ -6,7 +6,7 @@ var audio = new Audio('audio/am-thanh-vong-quay-may-man-ngan-www_tiengdong_com.m
     var numbers = result.getElementsByTagName("span");
     var firstNumber, secondNumber, thirdNumber;
     var firstInterval = setInterval(function() {
-        firstNumber = Math.floor(Math.random() * 3);
+        firstNumber = Math.floor(Math.random() * 2);
         numbers[0].textContent = firstNumber;
     }, 30);
     var secondInterval = setInterval(function() {
